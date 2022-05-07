@@ -1,0 +1,44 @@
+.Workout-container {
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 6px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.Workout-name-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7px;
+}
+
+.Workout-name {
+    text-transform: uppercase;
+    color: #5a57cb;
+    font-size: 10px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 120px;
+    padding: 5px 0;
+}
+
+.Workout-exercise-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.more-icon {
+    font-size: 14px;
+    color: #c4c4c4;
+    cursor: pointer;
+}
+
+.plus-icon {
+    font-size: 15px;
+    color: #a0a8b1;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.DateTime-name {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #6a7988;
+    font-weight: 600;
+}
+
+.DateTime-day {
+    color: #728096;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.DateTime-active {
+    color: #5a57cb;
+    font-weight: bold;
+}
+
+.DateTime-container {
+    background-color: #f3f5f8;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin-top: 10px;
+    width: 160px;
+    height: 100vh;
+}
