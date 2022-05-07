@@ -54,6 +54,7 @@ const Workout = ({ columnId, item }) => {
                                 );
                             })}
                         </div>
+                        {provided.placeholder}
                         <div
                             style={{
                                 textAlign: 'right',
@@ -62,7 +63,6 @@ const Workout = ({ columnId, item }) => {
                         >
                             <i className="fa-solid fa-circle-plus plus-icon" />
                         </div>
-                        {provided.placeholder}
                     </div>
                 );
             }}

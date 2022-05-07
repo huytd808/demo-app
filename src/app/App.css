@@ -3,5 +3,5 @@
   gap: 10px;
   padding: 20px;
   justify-content: center;
-  height: 100%;
+  height: calc(100vh - 40px);
 }
